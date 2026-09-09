@@ -1,0 +1,25 @@
+name: bano_qabil_app
+description: "Bano Qabil mobile application — Page 1: Authentication (frontend only)."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: '>=3.12.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  provider: ^6.1.2
+  go_router: ^14.6.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
